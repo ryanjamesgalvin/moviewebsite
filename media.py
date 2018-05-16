@@ -6,14 +6,12 @@ class Movie():
     """
     def __init__(self, title, story, poster, trailer):
         """
-        Method to initialize a movie object, takes as
-        arguments the title, storyline, poster image URL
-        and youtube trailer URL for the movie.
+        Method to initialize a movie object
 
-        :param title: string
-        :param story: string
-        :param poster: string
-        :param trailer: string
+        :param title: string, movie title
+        :param story: string, movie storyline
+        :param poster: string, poster URL
+        :param trailer: string, trailer URL
         """
         self.title = title
         self.story = story
